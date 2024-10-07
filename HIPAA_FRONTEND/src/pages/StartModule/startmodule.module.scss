@@ -1,0 +1,20 @@
+.StartModule {
+  .StartModuleHeader {
+    margin: 0.60rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .VideoPlayer {
+    margin: 0.5rem 10rem;
+
+    h2 {
+      margin: 0.5rem;
+    }
+    iframe {
+      width: 100%;
+      min-height: 60vh;
+    }
+  }
+}

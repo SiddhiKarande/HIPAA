@@ -1,0 +1,11 @@
+.FileDownloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .25rem;
+    margin: .5rem;
+
+    &:hover{
+        cursor: pointer;
+    }
+}

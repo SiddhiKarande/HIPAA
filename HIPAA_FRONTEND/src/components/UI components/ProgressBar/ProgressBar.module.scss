@@ -1,0 +1,21 @@
+@import "../../../theme/variables";
+.ProgressBar{
+    height: 20px;
+    width: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 .0625rem .1875rem #1018281a, 0 .0625rem .125rem #1018280f;
+    border-radius: 40px;
+
+
+    .Child{
+        height: 100%;
+        background-color: $coditas-blue;
+        border-radius: 40px;
+        text-align: right;
+    }
+    .ProgressText{
+        padding: 10px;
+        color: $black;
+        font-weight: 600;
+    }
+} 

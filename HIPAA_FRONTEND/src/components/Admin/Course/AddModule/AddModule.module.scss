@@ -1,0 +1,25 @@
+@import "../../../../theme/variables";
+
+.AddModule {
+  overflow: hidden;
+  .AddModuleForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    background-color: $coditas-lightgray;
+    border-radius: 0.25rem;
+    position: relative;
+    padding-top: 2rem;
+
+    h2 {
+      margin: auto;
+      @extend .HeadingInner;
+    }
+
+    .Btn {
+      margin: auto;
+      margin-bottom: 1rem;
+    }
+  }
+}

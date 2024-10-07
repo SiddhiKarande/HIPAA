@@ -1,0 +1,67 @@
+.PaginationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .Pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.25rem;
+
+    .PageNumber {
+      margin: 0 0.05rem;
+      padding: 0.5rem 0.75rem;
+      border: 0.07rem solid #ddd;
+      border-radius: 50%;
+      background-color: #bddfff;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .PageControl {
+      margin: 0 0.05rem;
+      padding: 0.5rem 0.5rem;
+      border: 0.07rem solid #ddd;
+      border-radius: 50%;
+      background-color: #bddfff;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .PageNumber.Active {
+      background-color: #007bff;
+      color: #fff;
+      border-color: #007bff;
+    }
+
+    .PageControl[disabled] {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+
+  .DataContainer {
+    width: 80%;
+    margin: 1.25rem 0;
+  }
+
+  .DataContainer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .DataContainer li {
+    padding: 0.625rem;
+    border-bottom: 0.0625rem solid #ddd;
+  }
+
+  .DataContainer p {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}

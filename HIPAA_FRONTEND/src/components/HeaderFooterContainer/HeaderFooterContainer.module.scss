@@ -1,0 +1,119 @@
+@import '../../theme/variables';
+
+.HeaderFooterContainer {
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    .Header {
+        padding: 1rem 2rem;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: .0625rem solid $border-color;
+        box-shadow: 0 .0625rem .1875rem $border-color, 0 .0625rem .125rem $border-color;
+
+        .HeaderMain {
+            color: $coditas-blue;
+            font-size: 2rem;
+        }
+    }
+
+    .Nav {
+        color: $coditas-darkgray;
+        display: flex;
+        padding: 0 1rem;
+
+    }
+
+    .LeftNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 2rem;
+
+        .NavHeader {
+            padding: 0 1.5rem;
+            font-size: medium;
+            font-weight: 400;
+            &:hover {
+                color: $coditas-darkblue;
+                cursor: pointer;
+            }
+            &.Active {
+                font-weight: bold;
+                color: $coditas-blue;
+              }
+        }
+    }
+
+    .RightNav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .Logout {
+            margin: 0 1rem;
+            color: $coditas-blue;
+            scale: 1.5;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .Flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Text {
+        display: flex;
+        color: $coditas-darkgray;
+    }
+
+    .Outlet {
+        background-color: $coditas-lightgray;
+        padding: 1rem;
+    }
+
+    .Footer {
+        padding: 0.5rem;
+        border: .0625rem solid $border-color;
+        box-shadow: 0 .0625rem .1875rem $border-color, 0 .0625rem .125rem $border-color;
+        background-color: $coditas-lightgray;
+
+        .Underline {
+            text-decoration: underline;
+            margin: 0 .5rem;
+
+            a {
+                color: $coditas-darkgray;
+            }
+        }
+
+        .Socials {
+            display: flex;
+
+            .IconContainer {
+                display: flex;
+            }
+
+            .Icons {
+                background-color: $coditas-darkgray;
+                margin: 0 .5rem;
+                color: $coditas-lightgray;
+                border: .25rem solid $coditas-darkgray;
+                border-radius: 50vw;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

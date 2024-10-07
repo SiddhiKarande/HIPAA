@@ -1,0 +1,11 @@
+@import "../../theme/variables";
+
+.QuizPage {
+  display: flex;
+  flex-direction: column;
+  max-height: 76vh;
+  min-height: 78vh;
+  padding:2rem 0.5rem;
+  background-color: $coditas-lightgray;
+ 
+}

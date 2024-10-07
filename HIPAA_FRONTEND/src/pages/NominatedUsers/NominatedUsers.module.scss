@@ -1,0 +1,14 @@
+.Nominated{
+    width: 100%;
+
+    .LoaderContainer {
+        position: absolute;
+        top: 0vh;
+        left: 0vw;
+    }
+    
+    .Actions{
+        margin:0.25rem;
+        display: flex;
+    }
+}

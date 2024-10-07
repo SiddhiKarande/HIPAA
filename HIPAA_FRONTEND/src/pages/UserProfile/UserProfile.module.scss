@@ -1,0 +1,58 @@
+@import '../../theme/variables';
+
+.UserProfile { 
+    height: calc(100vh - 9rem);
+    background-color: white;
+
+    .UserDetails {
+        padding: 3rem 0rem;
+        display: flex;
+        margin: 0 2rem;
+        align-items: center;
+
+        .Logo {
+            margin: 0 1rem;
+            border: thin solid $coditas-darkgray;
+            background-color: $coditas-lightgray;
+            border-radius: 50%;
+            font-size: 4rem;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .UserInfo {
+            .UserName {
+                font-size: 2rem;
+                font-weight: 500;
+            }
+
+            .Flex {
+                width: 70vw;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+
+    .CertificateTitle {
+        font-size: 1.2rem;
+        margin: 0 1rem;
+    }
+
+    .Certificates {
+        padding: 2rem;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: repeat(4, 4fr);
+        overflow-y: scroll;
+        height: calc(100vh - 26rem);
+        border: thin solid $coditas-darkgray;
+
+        .Certificate {
+            background-color: yellow;
+            padding: 2rem;
+            margin: 1rem;
+        }
+    }
+} 

@@ -1,0 +1,13 @@
+@import '../../../theme/variables';
+
+.Enrollment { 
+    margin: 1rem;
+    padding: 2rem;
+    background-color: $coditas-blue;
+    color: white;
+    text-align: center;
+
+    .Para {
+        margin: 1rem 0;
+    }
+} 

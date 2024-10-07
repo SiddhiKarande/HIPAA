@@ -1,0 +1,19 @@
+@import "../../theme/variables";
+
+.AdminUsers {
+  display: flex;
+  background: #f4f8ff;
+  display: flex;
+  gap: 0.5rem;
+  min-height:calc(100vh - 9rem);
+  max-height:calc(100vh - 9rem);
+  .Users {
+    flex:12;
+    display: flex;
+    padding: 1rem;
+    box-shadow: $box-shadow;
+    border-radius:$border-radius;
+    background: #ffffff;
+    border:$border;
+  }
+}

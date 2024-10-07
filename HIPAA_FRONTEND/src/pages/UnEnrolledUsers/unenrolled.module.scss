@@ -1,0 +1,15 @@
+.UnEnrolledPage {
+    width: 100%;
+
+    .LoaderContainer {
+        position: absolute;
+        top: 0vh;
+        left: 0vw;
+    }
+
+    .Actions {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem;
+    }
+}

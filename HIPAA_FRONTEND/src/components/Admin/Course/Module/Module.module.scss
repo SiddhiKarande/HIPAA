@@ -1,0 +1,103 @@
+@import "../../../../theme/variables";
+
+.Module {
+  padding: 2rem;
+  border: 0.0625rem solid #eaecf0;
+  border-top: 0.125rem solid #2196f3;
+  box-shadow: $box-shadow;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  .DeletePopup {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .DeletePopupBtns{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .ModuleName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .Header {
+      font-size: medium;
+      font-weight: 600;
+    }
+
+    .Accordian {
+      cursor: pointer;
+      margin: 0 1rem;
+    }
+    .TickIcon{
+      color:white;
+      background-color: rgb(15, 192, 15);
+      border-radius: 50%;
+    }
+  }
+
+  .ModuleInfo {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+  }
+
+  .ModuleInfoVisible {
+    max-height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .Para {
+      display: flex;
+      gap: 0.25rem;
+
+      .ModuleItem {
+        color: #98a2b3;
+      }
+
+      .ModuleItemValue {
+        color: $coditas-darkgray;
+      }
+    }
+
+    .ModuleFooter {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .VideoContainer {
+      margin: 1rem;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+
+      .ModulePlayer {
+        display: flex;
+        justify-content: center;
+
+        .Iframe {
+          border: 1px solid black;
+          width: 70vw;
+          height: 60vh;
+        }
+      }
+    }
+
+    .EditButton {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

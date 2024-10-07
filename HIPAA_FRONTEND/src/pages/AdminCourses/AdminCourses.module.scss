@@ -1,0 +1,18 @@
+@import '../../theme/variables';
+
+.AdminCourses {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   background-color: white;
+   padding: 1rem;
+   border: thin solid transparent;
+   border-radius: .25rem;
+   box-shadow: $box-shadow;
+   min-height: calc(100vh - 9rem);
+   max-height: calc(100vh - 9rem);
+
+   .Header {
+     @extend .Heading;
+   }
+}

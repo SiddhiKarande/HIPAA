@@ -1,0 +1,14 @@
+.EnrolledPage {
+    width: 100%;
+
+    .LoaderContainer {
+        position: absolute;
+        top: 0vh;
+        left: 0vw;
+    }
+
+    .Actions {
+        display: flex;
+        margin: 0.5rem;
+    }
+}

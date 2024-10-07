@@ -1,0 +1,30 @@
+//Add colors
+$coditas-blue: rgb(33, 150, 243);
+$coditas-darkblue: #2c74d6;
+$coditas-lightgray: #f4f8ff;
+$coditas-darkgray: rgb(94 108 120);
+$border-color: #1018280f;
+$addModuleForm-borderColor: #dae4f5;
+$coditas-white: white;
+$black: black;
+
+//border
+$border: 0.0625rem solid #eaecf0;
+$border-top: 0.125rem solid #2196f3;
+$box-shadow: 0 0.0625rem 0.1875rem #1018281a, 0 0.0625rem 0.125rem #1018280f;
+$border-radius: 5px;
+
+//gaps and margins
+
+$page-margin: 1rem;
+
+//fonts
+
+.HeadingInner {
+  font-size: medium;
+  font-weight: 600;
+}
+.Heading {
+  font-weight: 400;
+  font-size: 1.5rem;
+}

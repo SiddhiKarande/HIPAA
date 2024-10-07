@@ -1,0 +1,51 @@
+@import "../../../../theme/variables.scss";
+
+.InputContainer {
+  .FormDiv {
+    display: flex;
+
+    .FormInputWithError {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: min-content;
+      .Btn {
+        width: max-content;
+        margin: 0 1.75rem;
+      }
+      input {
+        margin: 1rem 2rem;
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        border: thin solid $coditas-lightgray;
+      }
+      .CSV {
+        margin: 1rem 2rem;
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        border: thin solid $coditas-lightgray;
+        position: absolute;
+        left: 0;
+        width: 13rem;
+      }
+
+      .CSVAlert {
+        position: absolute;
+        left: 4rem;
+        top: 4rem;
+        width: max-content;
+      }
+
+      .ValidationAlert {
+        color: red;
+        font-size: small;
+      }
+    }
+
+    .FormInputWithError:last-child {
+      position: relative;
+    }
+  }
+}

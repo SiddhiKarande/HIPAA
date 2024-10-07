@@ -1,0 +1,18 @@
+@import "../../../theme/variables";
+
+.Dropdown { 
+
+
+    background-color: rgb(255, 255, 255);
+    padding: .5rem;
+    text-align: center;
+    border-radius: 5px;
+
+    .ListItem {
+        padding: 0.5rem 0.5rem;
+        
+        &:hover {
+            background-color: $coditas-darkgray;
+        }
+    }
+} 
